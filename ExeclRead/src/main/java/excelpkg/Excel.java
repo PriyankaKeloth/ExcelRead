@@ -17,7 +17,7 @@ public class Excel {
 
 	public static String readStringData(int i,int j) throws IOException {
 
-	f= new FileInputStream("C:\\Users\\sreel\\eclipse-workspace\\ExcelRead\\src\\main\\resources\\Student.xlsx");
+	f= new FileInputStream("C:\\Users\\Ranil\\git\\ExcelRead\\ExeclRead\\src\\main\\resources\\Student.xlsx");
 
 	w= new XSSFWorkbook(f);
 
@@ -34,7 +34,7 @@ public class Excel {
 	public static String readIntegerData(int i,int j) throws IOException {
 
 	
-			f= new FileInputStream("C:\\Users\\sreel\\eclipse-workspace\\ExcelRead\\src\\main\\resources\\Student.xlsx");
+			f= new FileInputStream("C:\\Users\\Ranil\\git\\ExcelRead\\ExeclRead\\src\\main\\resources\\Student.xlsx");
 
 			w= new XSSFWorkbook(f);
 
